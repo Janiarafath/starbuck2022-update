@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\main.css">
+    <link rel="stylesheet" href="static\css\style.css">
+    <title>Starbucks Coffee Company</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="media\logo_tcm87-366_w1024_n.png" alt="Starbucks" />
+                </a>
+            </div>
+
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="menu-list.html">Menu</a>
+                </li>
+                <li>
+                    <a href="coffee.html">Coffee</a>
+                </li>
+                <li>
+                    <a href="https://rewards.starbucks.in/">Rewards</a>
+                </li>
+                <li>
+                    <a href="https://careers.starbucks.in/">Career</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav-right">
+                <li>
+                    <a href="https://goo.gl/maps/6rr1NjFHbYUBgYC87">
+                        <img src="static\images\marker.svg" alt="" />
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li><button class="btn btn-dark">Join now</button></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li>
+                <a href="menu-list.html">Menu</a>
+            </li>
+            <li>
+                <a href="coffee.html">Coffee</a>
+            </li>
+            <li>
+                <a href="https://rewards.starbucks.in/">Rewards</a>
+            </li>
+            <li>
+                <a href="https://careers.starbucks.in/">Career</a>
+            </li>
+            <li>
+                <a href="about-us.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+        <div class="mobile-menu-bottom">
+            <button class="btn btn-dark">Join now</button>
+            <div>
+                <a href="https://goo.gl/maps/6rr1NjFHbYUBgYC87">
+                    <img src="static\images\marker.svg" alt="" />
+                    <span>Find a store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+
+<main class="main" id="main">
+    <div typeof="Region" resource="Main">
+    
+
+<!--COMPONENT: HERO -->
+<style>
+    .hero3964 {
+    background-color:#000000;
+}
+            .hero3964 .heroImage {
+                background-image: url("media/Coffee-Hero_tcm87-3963.jpg");
+            }
+            @media screen and (min-width: 541px) {
+                .hero3964 .heroImage {
+                    background-image: url("media/Coffee-Hero_tcm87-3963.jpg");
+                }
+            }
+
+            .hero3964 .hero_overlay {
+              background: rgba(0, 0, 0, 0);
+              color: #FFFFFF;
+            }
+
+    /* Styles to handle the gradient before and after the image */
+          .hero3964 .heroImage:after {
+
+	            background: -moz-linear-gradient(top,  rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+	            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0, 0, 0, 0)), color-stop(100%,rgba(0, 0, 0, 1)));
+	            background: -webkit-linear-gradient(top,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+	            background: -o-linear-gradient(top,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+	            background: -ms-linear-gradient(top,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+	            background: linear-gradient(to bottom,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+            }
+            @media screen and (min-width: 541px) {
+
+	            .hero3964 .heroImage:after {
+		            background: none;
+		            filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	            }
+            }
+            @media screen and (min-width: 2400px) {
+	            .hero3964 .heroImage:before {
+		            background: -moz-linear-gradient(left,  rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+		            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0, 0, 0, 1)), color-stop(100%,rgba(0, 0, 0, 0)));
+		            background: -webkit-linear-gradient(left,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0) 100%);
+		            background: -o-linear-gradient(left,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0) 100%);
+		            background: -ms-linear-gradient(left,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0) 100%);
+		            background: linear-gradient(to right,  rgba(0, 0, 0, 1) 0%,rgba(0, 0, 0, 0) 100%);
+                }
+                .hero3964 .heroImage:after {
+		            background: -moz-linear-gradient(left,  rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+		            background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0, 0, 0, 0)), color-stop(100%,rgba(0, 0, 0, 1)));
+		            background: -webkit-linear-gradient(left,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+		            background: -o-linear-gradient(left,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+		            background: -ms-linear-gradient(left,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+		            background: linear-gradient(to right,  rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 1) 100%);
+	            }
+            }
+            /* END Styles to handle the gradient before and after the image */
+
+            /* Link Color */
+            .hero3964 a,
+            .hero3964 a:link,
+            .hero3964 a:visited,
+            .hero3964 a:hover,
+            .hero3964 a:focus,
+            .hero3964 a:active {
+              color: #FFFFFF;
+            }
+
+            /* CTA-Button Color */
+            .hero3964 .btn--cta a,
+            .hero3964 .btn--cta a:visited {
+              color: #FFFFFF;
+            }
+
+            /* Link Hover Color
+            .hero3964 a:hover,
+            .hero3964 a:focus,
+            .hero3964 a:active {
+              background: rgba(15,15,15,.1);
+              border-bottom: 1px solid;
+            }*/
+
+            /* CTA-Button Hover Color */
+            .hero3964 .btn--cta a:hover,
+            .hero3964 .btn--cta a:focus,
+            .hero3964 .btn--cta a:active {
+              background: rgba(15,15,15,.1);
+            }
+
+</style>
+<!--[if lte IE 8]>
+  <style>
+        .hero3964 {
+            background-image: url("/media/Coffee-Hero_tcm87-3963.jpg");
+        }
+    </style>
+<![endif]-->
+
+<article class="heroBanner midLeft hero3964" >
+    <!--CLASS: topLeft, topRight, topCenter, midLeft, midRight, midCenter, bottomLeft, bottomRight, bottomCenter, heroBanner--noTextOverlay -->
+    <div class="heroImage">
+        <span class="hidden_visually"></span>
+    </div>
+    <div class="container">
+        <div class="fields">
+            <div class="region size12of12">
+                    <a href="coffee/ethical-sourcing/coffee-quality.html" class="hero_link"  ></a>
+                                    <div class="hero_overlay">
+                            <h1 class="hero_header" >Our Coffee</h1>
+                        <div class="hero_copy">
+                                <div >
+                                    <p>Since 1971, it always has been and will always be about quality. We’re passionate about ethically sourcing only the finest Arabica coffee beans and roasting them with great care. Our passion for coffee is rivaled only by our love of sharing it.</p>
+                                </div>
+                        </div>
+                            <div class="button_wrap">
+                                <span class="button button_cta secondary">
+                                    <a href="coffee/ethical-sourcing/coffee-quality.html" title="Learn More"  >Learn More</a>
+                                </span>
+                            </div>
+                                            </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<div class="contentStripesContainer" >
+    <style>
+            .contentStripe3967 {
+              /* Background Color */
+              background-color: #efefef;
+
+              /* Background Repeating */
+              background-repeat: repeat-x;
+
+              /* Text Color */
+              color:#000000;
+            }
+
+            /* Link Color */
+            .contentStripe3967 a,
+            .contentStripe3967 a:link,
+            .contentStripe3967 a:visited,
+            .contentStripe3967 a:hover,
+            .contentStripe3967 a:focus,
+            .contentStripe3967 a:active {
+              color: #000000;
+            }
+
+            /* CTA-Button Color */
+            .contentStripe3967 .btn--cta a,
+            .contentStripe3967 .btn--cta a:visited {
+              color: #000000;
+            }
+
+            /* Link Hover Color */
+            .contentStripe3967 a:hover,
+            .contentStripe3967 a:focus,
+            .contentStripe3967 a:active {
+              background: rgba(15,15,15,.1);
+              border-bottom: 1px solid;
+            }
+
+            /* CTA-Button Hover Color */
+            .contentStripe3967 .btn--cta a:hover,
+            .contentStripe3967 .btn--cta a:focus,
+            .contentStripe3967 .btn--cta a:active {
+              background: rgba(15,15,15,.1);
+            }
+
+            /* Desktop Background Image-Repeating pattern */
+            @media screen and (min-width: 414px) {
+              .contentStripe3967 {
+                background-image: url(media/Coffee-Finder-Background_tcm87-3968.png);
+              }
+            }
+    </style>
+    <article class="contentStripe contentStripe3967 contentStripe--imgRight" >
+        <div class="contentStripe__container">
+            <div class="contentStripe__grid">
+                <figure class="contentStripe__media">
+                        <a href="coffee/finder.html"   >
+                            <picture class="contentStripe__picture">
+                                <img src="media/Coffee-Finder-Circles_tcm87-3966_w1024_n.png" alt="Three closeups of art from our coffee bags" data-aspect="0" class="contentStripe_img" />
+                            </picture>
+                        </a>
+                </figure>
+                <div class="contentStripe__content">
+                    <h2 class="contentStripe__title" >Coffee Finder</h2>
+                                        <div class="contentStripe__body" >
+                        <p>Our coffee masters have distilled their years of tasting knowledge down to three simple questions to help you find a coffee you’re sure to love.</p><p><a title="Coffee Finder" href="coffee/finder.html">Get Started&gt;&gt;</a></p><p><a title="Our Coffees" href="coffee/our-coffees.html">Browse All Coffees&gt;&gt;</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
+</main>
+
+<div class="divider"></div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social">
+                <a href="https://spotify.com">
+                    <img src="static\images\social-spotify.svg" alt="spotify" />
+                </a>
+                <a href="https://facebook.com">
+                    <img src="static\images\social-facebook.svg" alt="facebook" />
+                </a>
+                <a href="https://pinterest.com">
+                    <img src="static\images\social-pinterest.svg" alt="pinterest" />
+                </a>
+                <a href="https://instagram.com">
+                    <img src="static\images\social-instagram.svg" alt="instagram" />
+                </a>
+                <a href="https://youtube.com">
+                    <img src="static\images\social-youtube.svg" alt="youtube" />
+                </a>
+                <a href="https://twitter.com">
+                    <img src="static\icons8-twitter.svg" alt="twitter" />
+                </a>
+            </div>
+            <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+    
+
+    <!-- BEGIN: Bottom JavaScript -->
+    
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="static/js/framework.js"></script>
+    <script>
+    sb.namespace("config");
+    
+    sb.config.globalTextResources = {
+        closeButtonText: 'Close'
+    };
+</script>
+
+
+    
+
+    <script type="text/javascript" src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/our-coffees.js"></script>
+    <!-- END: Bottom JavaScript -->
+
+
+
+
+
+
+    
+    
+
+
+
+
+</body>
+
+
+</html>

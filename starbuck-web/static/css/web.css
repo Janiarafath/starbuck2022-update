@@ -1,0 +1,68 @@
+body {
+
+    background-color: azure;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: azure;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+h2 {
+    
+    text-align: center;
+    font-style: oblique;
+}
+
+p {
+    text-align: center;
+    font: 1em sans-serif;
+
+}
+
+input[type="email"],
+input[type="text"], select, textarea {
+
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 16px;
+    background: whitesmoke;
+
+}
+
+
+.button {
+
+margin: auto;
+width: 100%;
+border: none;
+background-color: teal;
+color: azure;
+opacity: 0.9;
+cursor: pointer;
+padding: 16pt;
+
+}
+
+.button:hover {
+
+    background-color: blue;
+    color: aliceblue;
+}
+    
+
+
+
